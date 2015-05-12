@@ -610,7 +610,7 @@ when you need to retrieve a single record by id.
 
   ```Ruby
   # bad
-  User.where(id: id).take
+  User.where(id: id).first
 
   # good
   User.find(id)
