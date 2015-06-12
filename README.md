@@ -1011,6 +1011,10 @@ your application.
   Time.zone.now # => Fri, 12 Mar 2014 22:04:47 EET +02:00
   Time.current # Same thing but shorter.
   ```
+  
+* <a name="prefer-time-to-datetime"></a>
+  Prefer `Time` to `DateTime`, unless you need to deal with dates and times in a [historical context](https://gist.github.com/pixeltrix/e2298822dd89d854444b).
+<sup>[[link](#prefer-date-to-datetime)]</sup>
 
 ## Bundler
 
