@@ -481,8 +481,8 @@ render status: :forbidden
     end
     ```
 
-  * <a name="sexy-validations"></a>
-    Always use the new ["sexy"
+  * <a name="new-style-validations"></a>
+    Always use the ["new-style"
     validations](http://thelucid.com/2010/01/08/sexy-validation-in-edge-rails-rails-3/).
     <sup>[[link](#sexy-validations)]</sup>
 
